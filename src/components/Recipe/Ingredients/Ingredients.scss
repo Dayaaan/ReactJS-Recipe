@@ -1,0 +1,23 @@
+$text-color: #333;
+
+#ingredients {
+  text-align: center;
+  margin: 2em;
+}
+
+.ingredient {
+  margin: 1em 0;
+
+  &-quantity {
+    font-weight: 700;
+    margin-right: .3em;
+  }
+
+  &-name {
+    color: $text-color;
+  }
+
+  &-quantity, &-name {
+    display: inline-block;
+  }
+}

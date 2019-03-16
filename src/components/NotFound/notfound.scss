@@ -1,0 +1,15 @@
+@import 'src/styles/vars';
+
+#not-found {
+  text-align: center;
+  &-alert {
+    font-size: 8em;
+    font-weight: 700;
+    color: red;
+    margin: 4rem 0;
+  }
+  &-text {
+    color: $main-color;
+    margin: 2em 0;
+  }
+}

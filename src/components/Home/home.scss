@@ -1,0 +1,14 @@
+@import 'src/styles/vars';
+
+#home {
+  padding: 2em;
+  &-title {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+
+  &-desc {
+    font-size: 1.2em;
+  }
+}

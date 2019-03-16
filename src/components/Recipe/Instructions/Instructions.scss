@@ -1,0 +1,26 @@
+// Variables SCSS :D
+$step-color: #333;
+$number-color: #ddd;
+
+#instructions {
+  counter-reset: instruction;
+  padding: 1.5em 5em;
+}
+
+.instruction {
+  margin: 3em 0;
+  color: $step-color;
+  position: relative;
+
+  &::before {
+    counter-increment: instruction;
+    content: counter(instruction);
+    position: absolute;
+    font-size: 2.5em;
+    font-weight: 700;
+    top: -.4em;
+    left: -1em;
+    color: $number-color;
+
+  }
+}

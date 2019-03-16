@@ -1,0 +1,14 @@
+@import 'src/styles/vars';
+
+#app {
+  &-nav {
+    background-color: $bg-color-nav;
+    width: 30%;
+    position: fixed;
+    height: 100vh; // pour le mobile pour qu'il prenne 100% de la hauteur vh : viewHeight
+  }
+  &-main {
+    margin-left: 30%;
+    width: 70%;
+  }
+}
